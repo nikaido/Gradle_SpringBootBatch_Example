@@ -6,4 +6,4 @@ build
 
 # ignore Java build artifacts
 .class
-./app/bin/
+/app/bin/**/*
