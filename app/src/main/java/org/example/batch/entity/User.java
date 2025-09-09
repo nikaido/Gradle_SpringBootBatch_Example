@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.example.batch.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,5 +6,5 @@ import lombok.Setter;
 @Getter
 @Setter
 public class User {
-  private String name;
+  private String username;
 }

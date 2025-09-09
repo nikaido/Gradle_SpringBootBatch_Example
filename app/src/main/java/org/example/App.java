@@ -3,7 +3,7 @@
  */
 package org.example;
 
-import org.example.entity.User;
+import org.example.batch.entity.User;
 
 public class App {
   public String getGreeting() {
@@ -17,7 +17,7 @@ public class App {
   public static void main(String[] args) {
     System.out.println(new App().getGreeting());
     User u = new User();
-    u.setName("AA");
-    System.out.println("Hello, " + u.getName());
+    u.setUsername("AA");
+    System.out.println("Hello, " + u.getUsername());
   }
 }
